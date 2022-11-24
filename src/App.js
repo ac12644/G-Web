@@ -1,6 +1,7 @@
 import Globalstyles from "./styles/GlobalStyles";
 import { ThemeProvider } from "styled-components";
 import { black } from "./styles/Themes";
+
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import MovingCar from "./sections/MovingCar";
