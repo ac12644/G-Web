@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Globalstyles from "./styles/GlobalStyles";
+import { ThemeProvider } from "styled-components";
+import { black } from "./styles/Themes";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import MovingCar from "./sections/MovingCar";
+import tyre from "./assets/tyre.png";
+import Totop from "./sections/Totop";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Globalstyles />
+      <ThemeProvider theme={black}>
+        <Navigation />
+        <Footer />
+      </ThemeProvider>
+      <Totop thesrc={tyre} />
+      <MovingCar />
+    </>
   );
 }
 

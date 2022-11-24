@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<div align="center">
+  <a href="#">
+    <img src="/images/logo.jpeg" alt="Logo" width="155" height="155">
+  </a>
+</div>
 
-## Available Scripts
+## About The Project
 
-In the project directory, you can run:
+A collection ideated from the deepest dark side of the ether. Realised to contort the paradigm of NFT collections, to contribute the development and the growth of the NFT space.
 
-### `npm start`
+Introducing G-Web: the metaverse's first car with 0xEmission.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our intent is to provide a pixelated unique car for holders, granting them experiences in various layers of the metaverse. As our first goal, we plan to open our headquarters into Worldwide Webb's pixelated metaverse, by acquiring a large apartment. Check the article on [Medium](https://medium.com/@cryptohubble/the-dematerialization-of-the-car-%20concept-introducing-g-web-73ea78a0c16f)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### View Demo
 
-### `npm test`
+https://g-web-eight.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![HOME](/images/preview1.png)
+![MINT](/images//preview2.png)
 
-### `npm run build`
+### Resources Used in This Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Character Figures: https://bigheads.io/ <br />
+Fonts: https://fontsource.org/ <br />
+Svg Icons From: https://icons8.com & https://freesvg.org/ <br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### External Libraries used in this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[styled-components](https://styled-components.com/docs/advanced) <br />
+[GSAP](https://greensock.com/gsap/) <br />
+[type-writer effect](https://www.npmjs.com/package/typewriter-effect) <br />
+[react-confetti](https://www.npmjs.com/package/react-confetti) <br />
+[react-use](https://www.npmjs.com/package/react-use) <br />
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Below are instructions to get started:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ac12644/G-Web.git
+   ```
+2. Install packages
+   ```sh
+   yarn
+   ```
+3. Start app
+   ```sh
+   yarn start
+   ```
